@@ -6,7 +6,7 @@ const ElevenLabs = require("elevenlabs-node");
 const voice = new ElevenLabs(
     {
         apiKey:  process.env.ELEVENLABS_API_KEY, // Your API key from Elevenlabs
-        voiceId: "rVXUNJCVsjy8qbHwtxuc",             // A Voice ID from Elevenlabs
+        voiceId: "pNInz6obpgDQGcFmaJgB",             // A Voice ID from Elevenlabs
     }
 );
 
