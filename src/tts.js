@@ -16,7 +16,6 @@ voice.textToSpeech({
     textInput:       "I am a test",                // The text you wish to convert to speech
 
     // Optional Parameters
-    voiceId:         "rVXUNJCVsjy8qbHwtxuc",         // A different Voice ID from the default
     stability:       0.5,                            // The stability for the converted speech
     similarityBoost: 0.5,                            // The similarity boost for the converted speech
     modelId:         "elevenlabs_multilingual_v2",   // The ElevenLabs Model ID
