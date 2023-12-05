@@ -10,8 +10,8 @@ const voice = new ElevenLabs(
 
 voice.textToSpeech({
     // Required Parameters
-    fileName:        "audios/needToTrim.mp3",            // The name of your audio file
-    textInput:       "This is an example of a longer text. Longer texts often have pauses which we need to remove later. We will remove the silence in a seperate function.",                // The text you wish to convert to speech
+    fileName:        "audios/needToTrimV2.mp3",            // The name of your audio file
+    textInput:       "This is an example of a longer text. Longer texts often have pauses which we need to remove later. We will remove the silence in a seperate function. And with a long sentence like this one I can test whether my function actually works or not, which is important to me.",                // The text you wish to convert to speech
 
     // Optional Parameters
     voiceId:         "pNInz6obpgDQGcFmaJgB",         // A different Voice ID from the default
