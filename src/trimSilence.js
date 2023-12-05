@@ -1,9 +1,6 @@
 const ffmpeg = require('fluent-ffmpeg');
 const path = require('path');
 
-// Set the path to the ffmpeg binary
-// If ffmpeg is in your system path, you can skip this step
-// ffmpeg.setFfmpegPath('/path/to/ffmpeg');
 
 function removeSilence(inputFile, outputFile) {
   return new Promise((resolve, reject) => {
