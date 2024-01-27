@@ -23,3 +23,5 @@ let script = "This artist made 1.6 Million Dollars just with Procreate. And here
 let nouns = extractNouns(script);
 
 console.log(nouns);
+
+//commit test
